@@ -23,7 +23,7 @@ header {
     margin-bottom: 20px;
 }
 
-#postInput {
+#nameInput, #postInput {
     width: 100%;
     padding: 10px;
     font-size: 16px;
@@ -59,4 +59,14 @@ header {
 
 .post:last-child {
     border-bottom: none;
+}
+
+.post-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post-time {
+    color: #555;
+    font-size: 0.9em;
 }
