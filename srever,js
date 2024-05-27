@@ -9,10 +9,10 @@ const io = socketIo(server);
 
 // MySQL接続設定
 const db = mysql.createConnection({
-    host: 'your_mysql_host',
-    user: 'your_mysql_user',
-    password: 'your_mysql_password',
-    database: 'your_database_name'
+    host: 'sv4.php.starfree.ne.jp',
+    user: 'roomspawn_admim',
+    password: 'haru33haru',
+    database: 'roomspawn_nikkisite'
 });
 
 db.connect((err) => {
